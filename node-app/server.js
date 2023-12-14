@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 const web3 = new Web3('https://eth-sepolia.g.alchemy.com/v2/YOUR-KEY');
 
 //🔥🔥 do this for your local testing only dont put keys and addresses in production like this 🔥🔥
-const contractAddress = "SMART-CONTRACT-ADDRESS"
+const contractAddress = "0xdFd8BE0510B140ab9c19f97154Df12be445FEE2f" // check contract here  https://sepolia.etherscan.io/token/0xdfd8be0510b140ab9c19f97154df12be445fee2f
 const private_key = "PRIVATE-KEY-OF-WALLET-WHO-WILL-BE-PAIING-GASS"
 const fromAccount = "WALLET-ADDRESS-WHO-WILL-BE-PAIING-GASS"
 
